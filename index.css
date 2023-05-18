@@ -1,0 +1,84 @@
+/* Write your code here. */
+.for-background {
+  background-color: #ffffff;
+  height: 100vh;
+}
+.for-header {
+  color: #0f172a;
+  text-align: center;
+  font-family: "Roboto";
+}
+.for-first {
+  background-color: #fbbf24;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.for-second {
+  background-color: #38bdf8;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.for-third {
+  background-color: #ec4899;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 140px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-right: 14px;
+}
+
+.for-para {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  text-align: center;
+}
+.for-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  align-self: center;
+}
+@media screen and (min-width: 576px) {
+  .for-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .for-div {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .for-third {
+    align-self: flex-end;
+    margin-bottom: 0px;
+  }
+
+  .for-second {
+    align-self: flex-end;
+    margin-bottom: 0px;
+  }
+  .for-first {
+    align-self: flex-end;
+    margin-bottom: 0px;
+  }
+}
